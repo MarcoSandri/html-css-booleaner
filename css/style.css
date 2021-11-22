@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background: url("../img/pattern.png"), #4EA0FF;
+    background-repeat: repeat-x;
+    background-size: 400px;
+}
+
+header img {
+    height:50px;
+    margin-top: 40px;
+}
