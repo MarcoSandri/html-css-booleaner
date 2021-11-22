@@ -1,6 +1,6 @@
-body {
-    margin: 0;
-}
+
+
+/* stile dell'header */
 
 header {
     height: 100px;
@@ -12,4 +12,111 @@ header {
 header img {
     height:50px;
     margin-top: 40px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* stile dell'intestazione dell'articolo */
+.intestazione {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#titolo {
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: -2px;
+}
+
+.grigio {
+    color: #696969;
+}
+
+#autore {
+    font-size: 15px;
+}
+
+#data {
+    font-size:10px;
+}
+
+.intestazione a {
+    color: #4EA0FF;
+    text-decoration: none;
+}
+
+/* stile della sezione foto dell'articolo */
+
+.media div {
+    font-size: 10px;
+}
+
+/* Stile dell'articolo */
+
+.evidenziato {
+    background-color: #ffff00;
+}
+
+.articolo ul {
+    padding-left: 15px;
+}
+
+/* Stile tabella */
+
+table{
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #20A9E5;
+    color: #ffffff;
+    text-align: left;
+}
+
+tbody tr{
+    height: 60px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b1e5f2;
+}
+
+tbody tr td:last-child {
+    width: 50%;
+}
+
+/* Stile del footer */
+
+footer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer div {
+    font-weight: bold;
+}
+
+footer div:nth-child(2) {
+    background-image: url(../img/monitor.jpg);
+}
+
+footer div:nth-child(3) {
+    background-image: url(../img/graph.jpg);
+}
+
+footer div:not(:first-child) {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
 }
